@@ -1,84 +1,744 @@
 {
   "buses": [
-
-
     {
       "id": "1",
-      "name": "",
-      "image": "",
-      "from": "",
-      "to": "",
+      "name": "সোনার বাংলা",
+      "image": "https://thumbs.dreamstime.com/b/cartoon-coach-bus-clipart-illustration-white-background-drawn-simple-style-bright-colors-s-perfect-336068470.jpg",
+      "from": "Sherpur",
+      "to": "Dhaka",
       "departureTime": "",
       "arrivalTime": "",
       "returnDepartureTime": "",
       "returnArrivalTime": "",
-      "type": "",
-      "supervisorNumber": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01771-550020",
       "counters": [
         {
-          "name": "",
-          "place": "",
-          "phone": ""
+          "name": "শেরপুর",
+          "place": "নতুন সোনার বাংলা কাউন্টার",
+          "phone": "01771-550020"
         },
         {
-          "name": "",
-          "place": "",
-          "phone": ""
-        }
-      ],
-      "route": ""
-    },
-    {
-      "id": "1",
-      "name": "Hanif Enterprise",
-      "image": "/buses/hanif.jpg",
-      "from": "Sherpur",
-      "to": "Dhaka",
-      "departureTime": "06:00",
-      "arrivalTime": "12:00",
-      "returnDepartureTime": "14:00",
-      "returnArrivalTime": "20:00",
-      "type": "AC",
-      "supervisorNumber": "01711-123456",
-      "counters": [
-        {
-          "name": "Sherpur Counter",
-          "place": "Sherpur Bus Terminal",
-          "phone": "01712-345678"
-        },
-        {
-          "name": "Dhaka Counter",
-          "place": "Gabtoli Bus Terminal",
-          "phone": "01713-456789"
+          "name": " ঢাকা",
+          "place": "মহাখালি  সোনার বাংলা কাউন্টার",
+          "phone": "01771-550020"
         }
       ],
       "route": "SHERPUR_TO_DHAKA"
     },
     {
       "id": "2",
-      "name": "Shyamoli Paribahan",
-      "image": "/buses/shyamoli.jpg",
+      "name": "সাদিকা-১",
+      "image": "/Images/Bus/Sadika.jpg",
       "from": "Dhaka",
       "to": "Sherpur",
-      "departureTime": "07:00",
-      "arrivalTime": "13:00",
-      "returnDepartureTime": "15:00",
-      "returnArrivalTime": "21:00",
+      "departureTime": "06:30",
+      "arrivalTime": "11:00",
+      "returnDepartureTime": "13:35",
+      "returnArrivalTime": "8:00",
       "type": "NON-AC",
-      "supervisorNumber": "01714-234567",
+      "supervisorNumber": "01712119181",
       "counters": [
         {
-          "name": "Dhaka Counter",
-          "place": "Mohakhali Bus Terminal",
-          "phone": "01715-345678"
+          "name": "ঢাকা",
+          "place": "মহাখালি বাস টারমিনাল",
+          "phone": "01712119181"
         },
+
         {
-          "name": "Sherpur Counter",
-          "place": "Sherpur Bus Terminal",
-          "phone": "01716-456789"
+          "name": "শেরপুর",
+          "place": "নবীনগর বাস টার্মিনাল, শেরপুর",
+          "phone": "01712119181"
         }
       ],
       "route": "DHAKA_TO_SHERPUR"
+    },
+
+    {
+      "id": "3",
+      "name": "সাদিকা-২",
+      "image": "/Images/Bus/Sadika-2.jpg",
+      "from": "Dhaka",
+      "to": "Sherpur",
+      "departureTime": "23:30",
+      "arrivalTime": "05:00",
+      "returnDepartureTime": "13:35",
+      "returnArrivalTime": "20:00",
+      "type": "NON-AC",
+      "supervisorNumber": "01736990161",
+      "counters": [
+        {
+          "name": "ঢাকা",
+          "place": "মহাখালি বাস টারমিনাল",
+          "phone": "01736990161"
+        },
+
+        {
+          "name": "শেরপুর",
+          "place": "নতুন সোনার বাংলা কাউন্টার, শেরপুর",
+          "phone": "01736990161"
+        }
+      ],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "3",
+      "name": "Sherpur Women Chamber of Commerce & Industry",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "12:45 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "12:05 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01300823516"
+        },
+        {
+          "name": "Dhaka Counter",
+          "place": "Dhaka",
+          "phone": "01300823515"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "4",
+      "name": "Sherpur Chamber of Commerce-1",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "5:00 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "3:15 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "01715-814725",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01716-486467"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "5",
+      "name": "Sherpur Chamber of Commerce-2",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "12:30 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "2:00 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "01778-558890",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01778-558835"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "6",
+      "name": "Sherpur Tennis Club (Day-Night Coach)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "12:45 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "1:05 PM",
+      "returnArrivalTime": "",
+      "type": "Day-Night Coach",
+      "supervisorNumber": "01770774774",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01761797977"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "7",
+      "name": "S.A. Travels-2",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "6:05 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "1:35 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "01724191118",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Thana Mor",
+          "phone": "01724454357"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "8",
+      "name": "Collectorate Employee Welfare Association",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "5:30 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "3:45 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "01729-142831",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "New Market",
+          "phone": "01755-418143"
+        },
+        {
+          "name": "Sherpur Counter",
+          "place": "New Market",
+          "phone": "01912-567530"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "9",
+      "name": "AC Deluxe",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "6:30 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "2:00 PM",
+      "returnArrivalTime": "",
+      "type": "AC Deluxe",
+      "supervisorNumber": "01734190665",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "New Market Mor",
+          "phone": "01729592294"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "10",
+      "name": "AC Super Deluxe",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "12:30 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "1:10 PM",
+      "returnArrivalTime": "",
+      "type": "AC Super Deluxe",
+      "supervisorNumber": "01735621796",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "New Market Mor",
+          "phone": "01729592294"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "11",
+      "name": "Sherpur District Sports Association (AC Bus)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "5:20 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "3:30 PM",
+      "returnArrivalTime": "",
+      "type": "AC Bus",
+      "supervisorNumber": "01313-970129",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Tennis Club Counter",
+          "phone": "01761-797977"
+        },
+        {
+          "name": "Sherpur Counter",
+          "place": "Tennis Club Counter",
+          "phone": "01313-970128"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+
+    {
+      "id": "12",
+      "name": "Moni Mukta-2 (Nanni-Tinani-Sherpur-Gulistan via Bangla Motor, Farmgate, Shahbagh)",
+      "image": "",
+      "from": "Nanni",
+      "to": "Dhaka",
+      "departureTime": "11:20 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "07:15 AM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Nanni Counter",
+          "place": "Nanni",
+          "phone": "01792610029"
+        },
+        {
+          "name": "Tinani Counter",
+          "place": "Tinani",
+          "phone": "01814841617"
+        },
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01725371819"
+        }
+      ],
+      "route": "NANNI_TO_DHAKA"
+    },
+    {
+      "id": "13",
+      "name": "BRTC (Dhaka-Sherpur-Dhaka via Mymensingh)",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Sherpur",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "Bus",
+      "supervisorNumber": "01714069296 / 01714069295",
+      "counters": [
+        {
+          "name": "BRTC Counter",
+          "place": "Dhaka",
+          "phone": "01987881580"
+        }
+      ],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "14",
+      "name": "BRTC (Non-AC) (Mirpur-Nalitabari-Tinani-Nanni)",
+      "image": "",
+      "from": "Mirpur",
+      "to": "Nanni",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "Non-AC Bus",
+      "supervisorNumber": "01714344862",
+      "counters": [
+        {
+          "name": "Nanni Counter",
+          "place": "Nanni",
+          "phone": "01927-378249"
+        },
+        {
+          "name": "Jhutpatti Counter",
+          "place": "Jhutpatti",
+          "phone": "01677278327"
+        }
+      ],
+      "route": "MIRPUR_TO_NANNI"
+    },
+    {
+      "id": "15",
+      "name": "Pratinidhi 1J (Sherpur-Chattogram-Sherpur via Cumilla, Feni)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Chattogram",
+      "departureTime": "7:30 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "7:30 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01726-564771"
+        },
+        {
+          "name": "Nokla Counter",
+          "place": "Nokla",
+          "phone": "01719-073782"
+        },
+        {
+          "name": "Chattogram Counter",
+          "place": "Bayezid",
+          "phone": "01712-216607"
+        }
+      ],
+      "route": "SHERPUR_TO_CHATTAGRAM"
+    },
+    {
+      "id": "16",
+      "name": "Shamim Enterprise Pvt. Ltd. (SEPL) ISUZU MT (Sherpur-Cox's Bazar)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Cox's Bazar",
+      "departureTime": "6:00 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "3:30 PM",
+      "returnArrivalTime": "",
+      "type": "ISUZU MT",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01861-659347"
+        },
+        {
+          "name": "Cox's Bazar Counter",
+          "place": "Cox's Bazar",
+          "phone": "01701-655074"
+        }
+      ],
+      "route": "SHERPUR_TO_COXSBAR"
+    },
+    {
+      "id": "17",
+      "name": "Pratinidhi 1J AC Coach (Sherpur-Jamalpur-Chattogram-Cox's Bazar)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Chattogram",
+      "departureTime": "5:30 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "4:30 PM",
+      "returnArrivalTime": "",
+      "type": "AC Coach",
+      "supervisorNumber": "01787-655106 / 01787-655107",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01726-564771"
+        },
+        {
+          "name": "Jamalpur Counter",
+          "place": "Jamalpur",
+          "phone": "01972-940380"
+        }
+      ],
+      "route": "SHERPUR_TO_COXSBAR"
+    },
+    {
+      "id": "18",
+      "name": "Jonota Mitali (Sherpur-Chattogram-Sherpur via Cumilla, Feni)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Chattogram",
+      "departureTime": "7:00 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "7:30 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "01767-621448 / 01837-716814",
+      "counters": [],
+      "route": "SHERPUR_TO_CHATTAGRAM"
+    },
+    {
+      "id": "19",
+      "name": "Shamim Enterprise Pvt. Ltd. 1J (Sherpur-Chattogram-Sherpur)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Chattogram",
+      "departureTime": "7:00 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "7:30 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01861-659347, 01971-659347"
+        },
+        {
+          "name": "Chattogram Counter",
+          "place": "Chattogram",
+          "phone": "01954-005162"
+        }
+      ],
+      "route": "SHERPUR_TO_CHATTAGRAM"
+    },
+    {
+      "id": "20",
+      "name": "Ayesha Paribahan 1J (Bakshiganj-Chattogram via Sherpur)",
+      "image": "",
+      "from": "Bakshiganj",
+      "to": "Chattogram",
+      "departureTime": "5:30 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "6:30 PM",
+      "returnArrivalTime": "",
+      "type": "1J",
+      "supervisorNumber": "01311800280, 01311800281",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01311800287"
+        },
+        {
+          "name": "Chattogram Counter",
+          "place": "Chattogram",
+          "phone": "01918214809"
+        }
+      ],
+      "route": "BAKSHIGANJ_TO_CHATTAGRAM"
+    },  {
+      "id": "21",
+      "name": "Jalalabad Paribahan (Sherpur-Sylhet-Sherpur)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Sylhet",
+      "departureTime": "6:30 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "8:30 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01779633340"
+        },
+        {
+          "name": "Sylhet Counter",
+          "place": "Sylhet",
+          "phone": "01718538037"
+        }
+      ],
+      "route": "SHERPUR_TO_SYLHET"
+    },
+    {
+      "id": "22",
+      "name": "Prime Paribahan Night Coach (Bakshiganj-Sherpur-Sylhet)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Sylhet",
+      "departureTime": "7:30 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "9:00 PM",
+      "returnArrivalTime": "",
+      "type": "Night Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01734-682894"
+        },
+        {
+          "name": "Sylhet Counter",
+          "place": "Sylhet",
+          "phone": "01734-682897"
+        }
+      ],
+      "route": "BAKSHIGANJ_TO_SYLHET"
+    },
+    {
+      "id": "23",
+      "name": "BRTC AC Bus Night Coach (Bakshiganj-Sherpur-Sylhet)",
+      "image": "",
+      "from": "Bakshiganj",
+      "to": "Sylhet",
+      "departureTime": "6:00 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "7:00 PM",
+      "returnArrivalTime": "",
+      "type": "AC Night Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Bakshiganj Ticket Booking",
+          "place": "Bakshiganj",
+          "phone": "01842761706"
+        },
+        {
+          "name": "Sherpur Ticket Booking",
+          "place": "Sherpur",
+          "phone": "01987881580"
+        }
+      ],
+      "route": "BAKSHIGANJ_TO_SYLHET"
+    },
+    {
+      "id": "24",
+      "name": "SK Janoni (Sherpur-Rajshahi-Chapainawabganj)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Rajshahi",
+      "departureTime": "9:00 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "9:00 AM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "01777966982, 01777966983",
+      "counters": [],
+      "route": "SHERPUR_TO_RAJSHAHI"
+    },
+    {
+      "id": "25",
+      "name": "Simanto Express (Sherpur-Jamalpur-Bogura-Rangpur)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Rangpur",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01726-564771"
+        },
+        {
+          "name": "Rangpur Counter",
+          "place": "Rangpur",
+          "phone": "01734-624901"
+        }
+      ],
+      "route": "SHERPUR_TO_RANGPUR"
+    },
+    {
+      "id": "26",
+      "name": "Himel Simanto AC (Sherpur-Jamalpur-Jashore-Khulna-Benapole)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Benapole",
+      "departureTime": "9:30 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "7:00 PM",
+      "returnArrivalTime": "",
+      "type": "AC Coach",
+      "supervisorNumber": "01777966982",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01726-564771"
+        }
+      ],
+      "route": "SHERPUR_TO_BENAPOLE"
+    },
+    {
+      "id": "27",
+      "name": "BRTC (AC) (Sherpur–Dhaka)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "12:30 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "3:30 PM",
+      "returnArrivalTime": "",
+      "type": "AC Bus",
+      "supervisorNumber": "01758836943",
+      "counters": [
+        {
+          "name": "Sherpur Ticket Counter",
+          "place": "Konok Paper House, Kharmapur, Sherpur",
+          "phone": "01917175052"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "28",
+      "name": "BRTC (Sherpur–Dhaka via Gazir Khamar–Sherpur–Dhaka–Mohakhali)",
+      "image": "",
+      "from": "Gazir Khamar",
+      "to": "Dhaka",
+      "departureTime": "9:30 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "7:00 AM",
+      "returnArrivalTime": "",
+      "type": "AC Bus",
+      "supervisorNumber": "01791360714",
+      "counters": [
+        {
+          "name": "Advance Ticket Available at",
+          "place": "Badsha Mia's Tea Shop",
+          "phone": "01727027915"
+        }
+      ],
+      "route": "GAZIRKHAMAR_TO_DHAKA"
+    },
+    {
+      "id": "29",
+      "name": "FZ Line (Jhenaigati-Tinani-Sherpur-Dhaka)",
+      "image": "",
+      "from": "Jhenaigati",
+      "to": "Dhaka",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur",
+          "phone": "01730-483170"
+        }
+      ],
+      "route": "JHENAIGATI_TO_DHAKA"
+    },
+    {
+      "id": "30",
+      "name": "Moon Raj-2 (Sherpur-Dhaka-Sherpur)",
+      "image": "",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "12:30 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "12:20 PM / 1:00 PM",
+      "returnArrivalTime": "",
+      "type": "Coach",
+      "supervisorNumber": "01755-418142",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "New Market 2nd Gate",
+          "phone": "01755-418143 / 01912-567530"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
     }
+
+
+    
   ]
 }
