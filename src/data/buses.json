@@ -1121,10 +1121,6 @@
       ]
     },
 
-
-
-
-    
     {
       "id": "59",
       "name": "Maer Anchol Express (Night to Night) (Sherpur-Dhaka-Sherpur-Jhinai Gati-Tinani-Ashulia)",
@@ -1156,10 +1152,6 @@
         }
       ]
     },
-
-
-
-
 
     {
       "id": "60",
@@ -1216,7 +1208,6 @@
         }
       ],
       "route": "SHERPUR_TO_DHAKA"
-
     },
 
     {
@@ -1271,14 +1262,6 @@
       "route": "SHERPUR_TO_DHAKA"
     },
 
-
-
-
-
-
-    
-
-
     {
       "id": "65",
       "name": "Ichamati Enterprise",
@@ -1299,7 +1282,6 @@
       ],
       "type": "NON-AC",
       "route": "SHERPUR_TO_DHAKA"
-      
     },
     {
       "id": "66",
@@ -1382,17 +1364,321 @@
       "route": "SHERPUR_TO_DHAKA",
       "type": "NON-AC",
       "counters": []
+    },
+
+    {
+      "id": "71",
+      "name": "Shihab Exclusive",
+      "image": "",
+      "from": "Vaidadanga",
+      "to": "Dhaka",
+      "departureTime": "9:00 PM",
+      "arrivalTime": "",
+      "returnDepartureTime": "8:00 AM",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01937556154",
+      "counters": [],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "72",
+      "name": "Shreerbadi Multipurpose Industry & Traders Association",
+      "image": "",
+      "from": "Vaidadanga",
+      "to": "Mohakhali",
+      "departureTime": "7:00 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "1:30 PM",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01718148578",
+      "counters": [],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "73",
+      "name": "Jabir",
+      "image": "",
+      "from": "Shreerbadi",
+      "to": "Dhaka",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01904992500",
+      "counters": [],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "74",
+      "name": "New Mojaddadiya",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Balijuri-Vaidadanga",
+      "departureTime": "9:00",
+      "arrivalTime": "",
+      "returnDepartureTime": "7:20",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01312149236",
+      "counters": [
+        {
+          "name": "Balijuri Bazar",
+          "place": "Vaidadanga",
+          "phone": ""
+        },
+        {
+          "name": "Shreerbadi",
+          "place": "Khoarpur",
+          "phone": ""
+        }
+      ],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "75",
+      "name": "Naem",
+      "image": "",
+      "from": "Balijuri",
+      "to": "Dhaka South Khan",
+      "departureTime": "7:10 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "9:30 PM",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01791797747",
+      "counters": [],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "76",
+      "name": "Mim Enterprise",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Vaidadanga",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01776948134",
+      "counters": [],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "77",
+      "name": "Mojaddadiya",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Vaidadanga",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON_AC",
+      "supervisorNumber": "01733119609",
+      "counters": [],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "78",
+      "name": "Sarkar",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Balijuri",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01840644867",
+      "counters": [],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "79",
+      "name": "Kanika Enterprise",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Sanandabari",
+      "departureTime": "5:00 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "9:10 PM",
+      "returnArrivalTime": "",
+      "type": "NON_AC",
+      "supervisorNumber": "01742064692",
+      "counters": [],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "80",
+      "name": "Shahi Moni",
+      "image": "",
+      "from": "Balijuri",
+      "to": "Dhaka",
+      "departureTime": "6:40 AM",
+      "arrivalTime": "",
+      "returnDepartureTime": "2:30 PM",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01300823121",
+      "counters": [],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "81",
+      "name": "Crown Deluxe",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Bakshiganj",
+      "departureTime": "11:00 PM",
+      "arrivalTime": "12:10 PM",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01796-388809",
+      "counters": [],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "82",
+      "name": "Crown Deluxe",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Sanandabari",
+      "departureTime": "7:00 AM",
+      "arrivalTime": "8:30 PM",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01775-534173",
+      "counters": [],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "83",
+      "name": "Mofakhkhar Enterprise",
+      "image": "",
+      "from": "Bakshiganj",
+      "to": "Dhaka",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01842206386",
+      "counters": [
+        { "name": "Dhaka Counter", "place": "", "phone": "01842206387" }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "84",
+      "name": "Poly Paribahan",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Roumaari",
+      "departureTime": "7:00",
+      "arrivalTime": "8:00",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01958155316",
+      "counters": [
+        {
+          "name": "Mohakhali Main Building",
+          "place": "Counter 6",
+          "phone": "01958155311"
+        },
+        { "name": "Uttara Azampur", "place": "", "phone": "01958155312" }
+      ],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "85",
+      "name": "Rifat",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Kurigram-Roumari",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01923959761",
+      "counters": [
+        { "name": "Roumaari", "place": "", "phone": "01720363319" },
+        { "name": "Kottimari", "place": "", "phone": "01734013901" }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "86",
+      "name": "Mojaddadiya Enterprise",
+      "image": "",
+      "from": "Dhaka",
+      "to": "Sanandabari",
+      "departureTime": "5:45 PM",
+      "arrivalTime": "9:10 AM",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01724555199",
+      "counters": [],
+      "route": "DHAKA_TO_SHERPUR"
+    },
+    {
+      "id": "87",
+      "name": "Jamuna Enterprise",
+      "image": "",
+      "from": "Bakshiganj",
+      "to": "Dhaka",
+      "departureTime": "10:30 PM",
+      "arrivalTime": "6:00 AM",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01714045162",
+      "counters": [
+        {
+          "name": "Bakshiganj Counter",
+          "place": "Bakshiganj Chourasta",
+          "phone": "01714045163"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "88",
+      "name": "Nahian Express 1J",
+      "image": "",
+      "from": "Bakshiganj",
+      "to": "Dhaka",
+      "departureTime": "10:30 PM",
+      "arrivalTime": "10:00 AM",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "01706788796",
+      "counters": [{ "name": "", "place": "", "phone": "01706800856" }],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "89",
+      "name": "N.R. Super 1J",
+      "image": "",
+      "from": "Bakshiganj",
+      "to": "Dhaka",
+      "departureTime": "5:30 AM",
+      "arrivalTime": "1:00 PM",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "NON-AC",
+      "supervisorNumber": "",
+      "counters": [],
+      "route": "SHERPUR_TO_DHAKA"
     }
-
-
-
-
-
-
-
-
-
-
-
   ]
 }
