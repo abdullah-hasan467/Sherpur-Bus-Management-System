@@ -1,0 +1,56 @@
+{
+  "buses": [
+    {
+      "id": "1",
+      "name": "Hanif Enterprise",
+      "image": "/buses/hanif.jpg",
+      "from": "Sherpur",
+      "to": "Dhaka",
+      "departureTime": "06:00",
+      "arrivalTime": "12:00",
+      "returnDepartureTime": "14:00",
+      "returnArrivalTime": "20:00",
+      "type": "AC",
+      "supervisorNumber": "01711-123456",
+      "counters": [
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur Bus Terminal",
+          "phone": "01712-345678"
+        },
+        {
+          "name": "Dhaka Counter",
+          "place": "Gabtoli Bus Terminal",
+          "phone": "01713-456789"
+        }
+      ],
+      "route": "SHERPUR_TO_DHAKA"
+    },
+    {
+      "id": "2",
+      "name": "Shyamoli Paribahan",
+      "image": "/buses/shyamoli.jpg",
+      "from": "Dhaka",
+      "to": "Sherpur",
+      "departureTime": "07:00",
+      "arrivalTime": "13:00",
+      "returnDepartureTime": "15:00",
+      "returnArrivalTime": "21:00",
+      "type": "NON-AC",
+      "supervisorNumber": "01714-234567",
+      "counters": [
+        {
+          "name": "Dhaka Counter",
+          "place": "Mohakhali Bus Terminal",
+          "phone": "01715-345678"
+        },
+        {
+          "name": "Sherpur Counter",
+          "place": "Sherpur Bus Terminal",
+          "phone": "01716-456789"
+        }
+      ],
+      "route": "DHAKA_TO_SHERPUR"
+    }
+  ]
+}
