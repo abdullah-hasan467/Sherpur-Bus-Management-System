@@ -811,7 +811,7 @@
     },
     {
       "id": "43",
-      "name": "Haji 1J ",
+      "name": "Haji",
       "image": "",
       "from": "Nalitabari",
       "to": "Dhaka",
@@ -1168,6 +1168,7 @@
       "type": "NON-AC",
       "route": "SHERPUR_TO_DHAKA"
     },
+
     {
       "id": "61",
       "name": "SB Gourab Paribahan",
@@ -1270,6 +1271,7 @@
       "to": "Dhaka",
       "departureTime": "10:40",
       "returnDepartureTime": "6:30",
+      "type": "NON-AC",
       "counters": [
         {
           "place": "Jhinai Gati Counter",
@@ -1280,9 +1282,10 @@
           "phone": "01925418484"
         }
       ],
-      "type": "NON-AC",
+
       "route": "SHERPUR_TO_DHAKA"
     },
+
     {
       "id": "66",
       "name": "Jhinai Gati Express",
@@ -1667,7 +1670,7 @@
     },
     {
       "id": "89",
-      "name": "N.R. Super 1J",
+      "name": "NR Super 1J",
       "image": "",
       "from": "Bakshiganj",
       "to": "Dhaka",
