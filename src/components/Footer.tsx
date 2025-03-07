@@ -40,17 +40,17 @@ export const Footer: React.FC = () => {
             <h3 className="text-4xl font-semibold mb-4">Created by</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://abdullah-hasan467.github.io/-My-portfolio/" target="_blank" className="hover:text-blue-400">
+                <a
+                  href="https://abdullah-hasan467.github.io/-My-portfolio/"
+                  target="_blank"
+                  className="hover:text-blue-400"
+                >
                   Md. Abdullah Al Hasan
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  
-                  className="hover:text-blue-400"
-                >
-                  Updated Date: 7th March, 2025
+                <a href="#" className="hover:text-blue-400">
+                  Update Date: 7th March, 2025
                 </a>
               </li>
               <li></li>
@@ -60,7 +60,8 @@ export const Footer: React.FC = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
           <p className="text-gray-300">
-            © {new Date().getFullYear()} Sherpur Bus Management System. All rights reserved.
+            © {new Date().getFullYear()} Sherpur Bus Management System. All
+            rights reserved.
           </p>
         </div>
       </div>
