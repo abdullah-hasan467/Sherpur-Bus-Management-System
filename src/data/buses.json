@@ -1,5 +1,33 @@
 {
   "buses": [
+
+
+    {
+      "id": "1",
+      "name": "",
+      "image": "",
+      "from": "",
+      "to": "",
+      "departureTime": "",
+      "arrivalTime": "",
+      "returnDepartureTime": "",
+      "returnArrivalTime": "",
+      "type": "",
+      "supervisorNumber": "",
+      "counters": [
+        {
+          "name": "",
+          "place": "",
+          "phone": ""
+        },
+        {
+          "name": "",
+          "place": "",
+          "phone": ""
+        }
+      ],
+      "route": ""
+    },
     {
       "id": "1",
       "name": "Hanif Enterprise",

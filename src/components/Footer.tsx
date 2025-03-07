@@ -1,5 +1,5 @@
-import React from 'react';
-import { Bus, Phone, Mail } from 'lucide-react';
+import { Bus, Mail, Phone } from "lucide-react";
+import React from "react";
 
 export const Footer: React.FC = () => {
   return (
@@ -9,46 +9,58 @@ export const Footer: React.FC = () => {
           <div>
             <div className="flex items-center space-x-2">
               <Bus size={24} />
-              <h3 className="text-xl font-bold">Sherpur Bus</h3>
+              <h3 className="text-4xl font-bold">Sherpur Bus</h3>
             </div>
-            <p className="mt-4 text-gray-300">
-              Providing reliable transportation services between Sherpur, Dhaka, and beyond.
+            <p className=" text-justify text-ali mt-4 text-gray-300">
+              Sherpur Bus Management System provides updated schedules for
+              outgoing and incoming buses from Sherpur to destinations across
+              the country. Information is collected from{" "}
+              <span className="text-red-300">
+                Buses of Mymensingh Division (BMD){" "}
+              </span>{" "}
+              and may change as per authority updates.
             </p>
           </div>
 
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+          <div className="ml-20">
+            <h3 className="text-4xl font-semibold mb-4">Contact Us</h3>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>+880 1234-567890</span>
+                <span>+880 01521-514957</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span>info@sherpurbus.com</span>
+                <span>m.hasan3444@gmail.com</span>
               </div>
             </div>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-4xl font-semibold mb-4">Created by</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-blue-400">Schedule</a>
+                <a href="https://abdullah-hasan467.github.io/-My-portfolio/" target="_blank" className="hover:text-blue-400">
+                  Md. Abdullah Al Hasan
+                </a>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-400">Book Tickets</a>
+                <a
+                  href="#"
+                  
+                  className="hover:text-blue-400"
+                >
+                  Updated Date: 7th March, 2025
+                </a>
               </li>
-              <li>
-                <a href="#" className="hover:text-blue-400">About Us</a>
-              </li>
+              <li></li>
             </ul>
           </div>
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
           <p className="text-gray-300">
-            © {new Date().getFullYear()} Sherpur Bus. All rights reserved.
+            © {new Date().getFullYear()} Sherpur Bus Management System. All rights reserved.
           </p>
         </div>
       </div>
