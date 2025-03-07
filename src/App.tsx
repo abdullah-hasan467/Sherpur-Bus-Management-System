@@ -69,7 +69,7 @@ function App() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <BusIcon size={32} />
-              <h1 className="text-3xl font-bold">Sherpur Bus</h1>
+              <h1 className="text-3xl font-bold">Sherpur Bus Management System</h1>
             </div>
             <button
               onClick={() => {
